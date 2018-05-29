@@ -41,6 +41,7 @@ namespace Wp.ViewModel
             moneyHandler.FillMoneyPouch(Pouch, true);
             productHandler.GetProducts(Products);
 
+
         }
         private ICommand _moneyInstalled;
 
